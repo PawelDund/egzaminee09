@@ -7,19 +7,35 @@
 </head>
 <body>
     <div class="left-panel">
-
+        <h3>Dostępne gatunki filmu</h3>
+        <ol>
+            <li>Sci-Fi</li>
+            <li> animacja</li>
+            <li>dramat</li>
+            <li>horror</li>
+            <li>komedia</li>
+        </ol>
+        <p><a href="kadr.jpg">Pobierz obraz</a></p>
+        <p><a href="repertuar-kin.pl" target="_blank">Sprawdź repertuar kin</a></p>
     </div>
     <div class="right-panel-1">
-
+        <h1>FILMOTEKA</h1>
     </div>
     <div class="right-panel-2">
-
+        <form method="post" action="dodaj.php">
+            <label>Tytuł: </label><input type="text" name="tytul"><br>
+            <label>Gatunek filmu: </label><input type="number" name="gatunek"><br>
+            <label>Rok Produkcji:</label><input type="number" name="rokp"><br>
+            <label>Ocena: </label><input type="number" name="ocena"><br>
+            <input type="reset" name="clear" value="CZYŚĆ">
+            <input type="submit" name="send" value="DODAJ"><br>
+        </form>
     </div>
     <div class="right-panel-3">
-
+        <img src="kadr.jpg" alt="zdjęcia filmowe">
     </div>
     <div class="footer">
-
+        Autor strony: Paweł Piasko
     </div>
 </body>
 </html>
