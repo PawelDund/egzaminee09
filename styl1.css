@@ -8,6 +8,7 @@ html
     color: white;
     height: 700px;
     width: 25%;
+    float: left;
 }
 .right-panel-1
 {
@@ -15,25 +16,29 @@ html
     height: 100px;
     width: 75%;
     text-align: center;
+    float: left;
 }
 .right-panel-2
 {
     background-color: steelblue;
     height: 300px;
     width: 75%;
+    float: left;
 }
-.right-panel-2
+.right-panel-3
 {
     background-color: royalblue;
     height: 300px;
     width: 75%;
     text-align: center;
+    float: left;
 }
 .footer
 {
     background-color: steelblue;
     text-align: center;
     padding: 20px;
+    clear: both;
 }
 h1
 {
